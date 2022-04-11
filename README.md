@@ -1,2 +1,2 @@
 # projeto_netflix
-Fazer um clone da netflix
+Projeto para simular um clone da netflix

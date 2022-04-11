@@ -1,0 +1,151 @@
+/* root aonde conseguimos declarar variáveis no css*/
+:root{ 
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elemento base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Netflix Sans'
+    color: white;
+}
+
+header .container{
+    width: 100%;
+}
+
+.principal{
+    font-size: 16px;
+    color: #e50914;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/capa_projeto_adam.png");
+    height: 600px;
+    background-size: cover;
+    background-position: 0 0 20px;
+    display: flex;
+}
+
+
+.principal h2{
+    font-size: 40px;
+    margin-left: 50px;
+    text-shadow: #141414;
+    margin-top: 10px;
+    
+}
+
+.principal a{
+    color: white;
+    font-size: 17px;
+    margin-left: 15px;
+    text-decoration: none;
+    
+    
+    
+    
+}
+
+.principal a:hover{
+    color: aqua;
+
+}
+
+.principal nav{
+    width: 100%;
+    padding-left: 270px;
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    position: absolute;
+    
+}
+
+.principal h3{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    
+}
+
+.principal p{
+    color: white;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+div .botoes{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: .3s ease all;
+    font-size: 25px;
+    
+    
+}
+
+.botoes .botao1:hover{
+    background-color: rgba(167, 162, 162, 3.0);
+    color: black;
+}
+
+.botoes .botao1{
+    background-color: white;
+    color: black;
+    
+    
+}
+
+.botoes .botao2{
+    background-color: #686262;
+}
+
+.botoes .botao2:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.botoes i{
+    margin-right: 10px;
+}
+
+/*Carrosel*/
+
+.box-filme{
+  width: 100%;
+  height: 100%;
+  display: block;
+  
+
+    
+}
+
+.principal h4{
+    color: white;
+    margin-top: 100px;
+    margin-left: -50px;
+    font-size: 30px;
+}
+

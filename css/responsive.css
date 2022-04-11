@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    .principal nav{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: px;
+        width: 50%;
+        margin-left: -250px;
+        
+       
+        
+    }
+
+    .principal a{
+        display: inline-block;
+    }
+
+    .principal h2{
+        margin-left: 250px;
+        width: 100%;
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 573px){
+    .botao{
+        margin-top: 10px;
+        
+        
+    }
+
+    .botoes{
+        padding-top: 50px;
+    }
+
+    .principal h3{
+        text-align: center;
+        
+    }
+
+    .principal p{
+        padding-top: 50px;
+        text-align: center;
+    }
+}
